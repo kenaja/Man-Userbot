@@ -9,7 +9,7 @@ from userbot.utils import edit_or_reply, man_cmd
 async def _(event):
     await event.client.send_message(
         event.chat_id,
-        "**Assalamualaikum Dulu Biar Sopan**",
+        "**Assalamualaikum akang teteh**",
         reply_to=event.reply_to_msg_id,
     )
     await event.delete()
